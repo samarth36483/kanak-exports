@@ -1,4 +1,11 @@
-import { Box, Drawer, List, ListItemButton, ListItemText } from "@mui/material";
+import {
+  Box,
+  Drawer,
+  List,
+  ListItemButton,
+  ListItemText,
+  Typography,
+} from "@mui/material";
 import { useState, Fragment } from "react";
 import { appMenu } from "../data/app-menu";
 import ExpandLess from "@mui/icons-material/ExpandLess";
@@ -12,10 +19,16 @@ interface NavDrawerProps {
 
 const NavDrawer = ({ open, handleToggle = () => {} }: NavDrawerProps) => {
   const navigate = useNavigate();
-  const [openListIndex, setOpenListIndex] = useState(-1);
+  const [openListIndex, setOpenListIndex] = useState(Array<number>);
 
   const onHeaderClick = (index: number) => {
-    setOpenListIndex(prevState => (index !== prevState ? index : -1));
+    let updatedIndexList;
+    if (openListIndex.includes(index)) {
+      updatedIndexList = openListIndex.filter(item => item !== index);
+    } else {
+      updatedIndexList = [...openListIndex, index];
+    }
+    setOpenListIndex(updatedIndexList);
   };
 
   const onItemClick = (path: string) => {
@@ -32,29 +45,37 @@ const NavDrawer = ({ open, handleToggle = () => {} }: NavDrawerProps) => {
         onClose={handleToggle}
         ModalProps={{ keepMounted: true }}
         sx={{
-          display: { xs: "block", sm: "none" },
+          display: { xs: "block", md: "none" },
           "& .MuiDrawer-paper": {
             boxSizing: "border-box",
             width: 240,
           },
         }}
       >
-        <Box className="text-center">
+        <Box>
           <List>
             {appMenu.map((menuItem, index) => (
               <Fragment key={index}>
                 <ListItemButton onClick={() => onHeaderClick(index)}>
-                  <ListItemText primary={menuItem.title} />
-                  {openListIndex === index ? <ExpandLess /> : <ExpandMore />}
+                  <ListItemText sx={{ color: "primary.main" }}>
+                    <Typography variant="h6">{menuItem.title}</Typography>
+                  </ListItemText>
+                  {openListIndex.includes(index) ? (
+                    <ExpandLess sx={{ color: "primary.main" }} />
+                  ) : (
+                    <ExpandMore sx={{ color: "primary.main" }} />
+                  )}
                 </ListItemButton>
-                {openListIndex === index &&
+                {openListIndex.includes(index) &&
                   menuItem.menu.map(item => (
                     <ListItemButton
                       key={item.text}
-                      className="text-center"
                       onClick={() => onItemClick(item.link)}
                     >
-                      <ListItemText primary={item.text} />
+                      <ListItemText
+                        primary={item.text}
+                        sx={{ color: "primary.main" }}
+                      />
                     </ListItemButton>
                   ))}
               </Fragment>
