@@ -1,5 +1,5 @@
 export const about = {
-  descTitle: "Kanak Shree Export.",
+  descTitle: "Kanak Shree Minerals",
   desc: [
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula ipsum, laoreet ut nulla tristique, convallis mattis ex. Duis blandit tellus ante, ac gravida risus maximus faucibus. Integer elit magna, fermentum in efficitur at, iaculis in magna. Pellentesque tortor ligula, sagittis a sem auctor, viverra tempor magna. Nunc mattis porta urna non tincidunt. In laoreet tempor turpis, sed placerat risus bibendum et. Donec placerat, enim iaculis finibus cursus, leo ante tristique ligula, vitae sagittis sapien odio id mi. Sed porttitor id sem maximus mollis. Sed tincidunt arcu lacus, vel ultrices mauris laoreet id. Donec et hendrerit velit. Praesent volutpat sodales facilisis. Fusce erat nisi, malesuada pulvinar mauris sit amet, semper mollis metus.",
     "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas vel tincidunt mi. Integer gravida quam sit amet felis interdum, ut pharetra quam cursus. Praesent efficitur at justo eu vulputate. Morbi pulvinar mauris lobortis erat mattis ultricies. Phasellus semper leo vitae justo mollis dignissim. Sed eu finibus justo, eget scelerisque mi. Ut imperdiet faucibus quam, sed fermentum lorem commodo sit amet. Fusce in erat eget nibh semper aliquam eget ut quam. Cras sagittis sollicitudin lacus vestibulum ornare.",
@@ -7,7 +7,7 @@ export const about = {
   values: [
     {
       title: "Quality Guarantee",
-      text: "MiningValleys enforces a broad quality assurance program. Manufacturing standards are certified to ISO 9001: 2000 by the Chinese Government.",
+      text: "Kanak Shree Minerals enforces a broad quality assurance program. Manufacturing standards are certified to ISO 9001: 2000 by the Indian Government.",
     },
     {
       title: "Timely Delivery",
