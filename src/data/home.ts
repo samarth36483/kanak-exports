@@ -15,13 +15,13 @@ export const home = {
     {
       title: "Innovation Technology",
       description:
-        "We always consider innovation as a cornerstone of growth and profitability for our customers and a prerequisite for long-term performance. R&D focus on expanding the safety and quality of construction chemicals from our extensive network.",
+        "At our core, we view innovation as the bedrock of growth and profitability for our clients, and an essential ingredient for sustained success. Our R&D endeavors are laser-focused on enhancing the safety and quality of construction chemicals, leveraging our expansive network to push the boundaries of possibility.",
       image: "/IMG_1319.JPG",
     },
     {
       title: "High-quality Products",
       description:
-        "Improving product quality and lowering production costs is always the main goal of KSM. We’ve built a broad, system-wide quality assurance program. Manufacturing standards are certified to ISO 9001: 2000 by the Indian Government.",
+        "Enhancing product excellence and reducing production expenses stands as the perpetual mission at KSM. Our comprehensive quality assurance program spans the entire production process, ensuring adherence to rigorous manufacturing standards certified to ISO 9001:2000 of the Indian Government.",
       image: "/IMG_1322.JPG",
     },
   ],
@@ -31,19 +31,19 @@ export const home = {
     {
       title: "Customer Focus",
       description:
-        "We always put our customers in a better position by forming relationships with customers, understanding the need, and the success of customers. We continuously strive to make our products better, provide on-time delivery of superior vermiculite, quartz, mica mining products at competitive pricing.",
+        "We consistently elevate our customers' standing through meaningful relationships, deep comprehension of their needs, and a relentless focus on their success. Our unwavering commitment propels us to perpetually refine our products, ensuring timely delivery of top-tier vermiculite, quartz, and mica mining offerings at competitive prices.",
       icon: "centerFocus",
     },
     {
       title: "Product Diversification",
       description:
-        "With a solid understanding of our target market, we have built friendly business relationship with customers from various industries, including Decorative, Agriculture, Mining, Rail, Oil & Gas, Aerospace, Military & Aviation, Marine, Medical, Wind, Solar & Batteries, Decorative, Household & Consumer Products, etc.",
+        "Armed with a profound understanding of our target market, we've fostered amicable and enduring business alliances across a diverse spectrum of industries. From Decorative and Agriculture to Mining, Rail, and beyond, our clientele spans critical sectors like Oil & Gas, Aerospace, Military & Aviation, Marine, Medical, and Renewable Energy. With a finger on the pulse of emerging trends, we cater to the intricate needs of each sector, ensuring our offerings resonate seamlessly with their unique requirements.",
       icon: "anchor",
     },
     {
       title: "Business Expansion",
       description:
-        "Being in the vermiculite, mica, and quartz mining manufacturing and suppling business for 18+ years, we know innovation has always played an important role in stimulating customer demand. The R&D unit focuses on promoting initiatives and developing new technologies to expand business domains.",
+        "With over 18 years of expertise in vermiculite, mica, and quartz mining manufacturing and supply, we understand the pivotal role of innovation in driving customer demand. Our dedicated R&D unit spearheads initiatives and pioneers new technologies, continually broadening our business horizons and staying ahead of the curve.",
       icon: "language",
     },
   ],
