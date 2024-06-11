@@ -9,7 +9,7 @@ export const home = {
     {
       title: "Mineral-based Manufacturer",
       description:
-        "MiningValleys is located in the north of China, the rich non-metallic minerals resources of vermiculite, mica, and high-purity quartz sand. Having been dedicated to researching, developing, and manufacturing mineral products for over 12 years, we started mineral exporting and trading internationally from China. We hope to build a friendly business relationship with all clients from worldwide.",
+        "Kanak Shree Minerals, established in 2005 and situated in the scenic Northwestern region of India amidst Aravali range. We specialize in the extraction and refinement of a diverse range of mineral products, including Mica, Quartz, Feldspar, and Vermiculite. Our commitment to quality and innovation has positioned us as a trusted supplier in both domestic and international markets. At Kanak Shree Minerals, we combine our expertise with a passion for sustainability to deliver superior mineral solutions that meet the evolving needs of industries worldwide.",
       image: "/IMG_1317.JPG",
     },
     {
