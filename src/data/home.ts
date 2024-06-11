@@ -1,8 +1,8 @@
 export const home = {
-  title: "Kanak Shree Exports",
+  title: "Kanak Shree Minerals",
   img: "/IMG_1335.JPG",
   logo: "",
-  subTitle: "Mineral Resources in India",
+  subTitle: "Rich Rock & Mineral Resources in Northwestern India",
   description:
     "Prime manufacturer, supplier & exporter of a wide range of industrial minerals such as raw vermiculite, quartz sand, marble stones, mica material.",
   sections: [
