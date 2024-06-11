@@ -5,7 +5,7 @@ export const footer = {
     { text: "Privacy Policy", link: "/" },
   ],
   contacts: [
-    { text: "+91-0123456789", icon: "phone" },
-    { text: "kanakshreexports@gmail.com", icon: "email" },
+    { text: "+91-9414010601", icon: "phone" },
+    { text: "kanakshreem@gmail.com", icon: "email" },
   ],
 };
