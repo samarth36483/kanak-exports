@@ -15,35 +15,35 @@ export const home = {
     {
       title: "Innovation Technology",
       description:
-        "MiningValleys always considers innovation as a cornerstone of growth and profitability for our customers and a prerequisite for long-term performance. R&D focus on expanding the safety and quality of construction chemicals from our extensive Chinese network of sourcing office.",
+        "We always consider innovation as a cornerstone of growth and profitability for our customers and a prerequisite for long-term performance. R&D focus on expanding the safety and quality of construction chemicals from our extensive network.",
       image: "/IMG_1319.JPG",
     },
     {
       title: "High-quality Products",
       description:
-        "Improving product quality and lowering production costs is always the main goal of MININGVALLEYS. We’ve built a broad, system-wide quality assurance program. Manufacturing standards are certified to ISO 9001: 2000 by the Chinese Government.",
+        "Improving product quality and lowering production costs is always the main goal of KSM. We’ve built a broad, system-wide quality assurance program. Manufacturing standards are certified to ISO 9001: 2000 by the Indian Government.",
       image: "/IMG_1322.JPG",
     },
   ],
   qualityDesc:
-    "MiningValleys has an ongoing commitment to quality and achieving this goal through reliable mining products. We pride ourselves on being an Outstanding Materials Supplier.",
+    "We have an ongoing commitment to quality and achieving this goal through reliable mining products. We pride ourselves on being an Outstanding Materials Supplier.",
   quality: [
     {
       title: "Customer Focus",
       description:
-        "MiningValleys always put our customers in a better position by forming relationships with customers, understanding the need, and the success of customers. We always strive to make our products better, provide on-time delivery of superior vermiculite, quartz, mica mining products at competitive pricing.",
+        "We always put our customers in a better position by forming relationships with customers, understanding the need, and the success of customers. We continuously strive to make our products better, provide on-time delivery of superior vermiculite, quartz, mica mining products at competitive pricing.",
       icon: "centerFocus",
     },
     {
       title: "Product Diversification",
       description:
-        "With a solid understanding our target marketing, MiningValleys has built friendly business relationship with customers from various industries, including Decorative, Agriculture, Mining, Rail, Oil & Gas, Aerospace, Military & Aviation, Marine, Medical, Wind, Solar & Batteries, Decorative, Household & Consumer Products, etc.",
+        "With a solid understanding of our target market, we have built friendly business relationship with customers from various industries, including Decorative, Agriculture, Mining, Rail, Oil & Gas, Aerospace, Military & Aviation, Marine, Medical, Wind, Solar & Batteries, Decorative, Household & Consumer Products, etc.",
       icon: "anchor",
     },
     {
       title: "Business Expansion",
       description:
-        "Being in the vermiculite, mica, and quartz mining manufacturing and suppling business for 12+ years, we know innovation has always played an important role in stimulating customer demand. The R&D unit focuses on promoting initiatives and developing new technologies to expand business domains.",
+        "Being in the vermiculite, mica, and quartz mining manufacturing and suppling business for 18+ years, we know innovation has always played an important role in stimulating customer demand. The R&D unit focuses on promoting initiatives and developing new technologies to expand business domains.",
       icon: "language",
     },
   ],
