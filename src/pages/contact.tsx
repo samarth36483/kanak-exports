@@ -13,8 +13,7 @@ const ContactPage = () => {
           Contact Us
         </Typography>
         <Typography variant="body1" className="mt-2 text-center">
-          Submit a contact form to send inquiries and quote requests, or
-          something else you need.
+          "Rock Your Enquiry: Fill Out Our Form!"
         </Typography>
       </Box>
       <InvertedWave />
