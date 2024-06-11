@@ -9,6 +9,18 @@ export const appMenu = [
     ],
   },
   {
+    title: "Quartz",
+    menu: [
+      { text: "Silica sand", link: "/" },
+    ],
+  },
+  {
+    title: "Feldspar",
+    menu: [
+      { text: "Silica sand", link: "/" },
+    ],
+  },
+  {
     title: "About",
     menu: [
       { text: "About Us", link: "/about" },
